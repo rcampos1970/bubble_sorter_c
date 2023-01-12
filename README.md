@@ -1,2 +1,2 @@
 # bubble_sorter_c
-BUbble Sorter Algorythm in C Language
+Bubble Sorter Algorythm in C Language
