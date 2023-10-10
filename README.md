@@ -1,20 +1,45 @@
-# bubble_sorter_c
-Bubble Sorter Algorythm in C Language
+# Bubble Sort in C
 
+This C program, `bubble_sort.c`, demonstrates the **Bubble Sort** algorithm, a simple sorting technique. It sorts an array of integers in ascending order. Here's a brief overview of how to use and understand the program:
 
-## How to run a C program
+## Usage
 
-One of the best GUI for C and other programming languages is EMACS.
-So after installing EMACS to run a programm, you have to access EMACS' terminal, eshell.
+1. **Compile**: Open a terminal and compile the program using your C compiler.
 
-### On Linux Machines:
-ALT-X eshell
-sudo apt-get install gcc
-"sudo password"
-gcc -o executable_name file_name.c 
-./ executable_name
-______________________________________
+   ```shell
+   gcc bubble_sort.c -o bubble_sort
+   ```
 
-The executable is the actual file that will be runned and output the programm
-if there's a math.h library on you program that you have to run it like:
-gcc -o executable_name file_name.c -lm
+2. **Run**: Execute the compiled program.
+
+   ```shell
+   ./bubble_sort
+   ```
+
+3. **Results**: The program will generate an array of integers, sort it using the Bubble Sort algorithm, and display the sorted array.
+
+## Code Explanation
+
+The `bubble_sort.c` program works as follows:
+
+- An array of integers is generated with random values.
+
+- The Bubble Sort algorithm is applied to the array, repeatedly comparing adjacent elements and swapping them if they are in the wrong order. This process continues until the entire array is sorted.
+
+- The sorted array is then displayed in ascending order.
+
+## Example Output
+
+Here's an example of what you might see when running the program:
+
+```
+Original array:
+78 14 92 32 42 5 63 71 9 50 
+
+Sorted array:
+5 9 14 32 42 50 63 71 78 92
+```
+
+## Note
+
+Bubble Sort is a simple sorting algorithm with a time complexity of O(n^2), making it inefficient for large datasets. It is primarily used for educational purposes and not recommended for large-scale sorting tasks.
